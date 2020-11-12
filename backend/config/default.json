@@ -1,0 +1,4 @@
+{
+  "mongoUri": "mongodb+srv://hardik:messenger@cluster0.x7obn.mongodb.net/messenger-clone",
+  "jsonWebToken": "SecretKey"
+}
