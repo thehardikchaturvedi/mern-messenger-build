@@ -3,10 +3,10 @@ const config=require('config');
 const db = config.get('mongoUri');
 const Pusher =require('pusher')
 const pusher = new Pusher({
-  appId: "1100514",
-  key: "4f377bd0f9de6f120b1c",
-  secret: "bef7bf4cc2be27801e01",
-  cluster: "ap2",
+  appId: "",
+  key: "",
+  secret: "",
+  cluster: "",
   useTLS: true
 });
 //DB Connection
