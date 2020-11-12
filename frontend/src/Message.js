@@ -3,6 +3,7 @@ import React, { forwardRef } from 'react'
 import './Message.css'
 
 const Message = forwardRef(({ message, username }, ref) => {
+    console.log(message,'m')
     const isUser = username === message.username
     return (
         <div ref={ref} className={`message ${isUser && 'message__user'}`} >
